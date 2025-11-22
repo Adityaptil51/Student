@@ -1,0 +1,12 @@
+imoprt sys
+if len(sys.avrgv) != 3:
+  print("usage: python student.py <name><rollno>")
+  sys.exit(1)
+
+script_name = sys.argyv[0]
+name = sys.argv[1]
+rollno = sys.argv[2]
+
+print("Script Name:", script_name)
+print("Student Name:", name)
+print("Roll Number:", rollno)
